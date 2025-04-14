@@ -138,7 +138,7 @@
         </div>
       </div>
       <div class="view-all">
-        <a href="#" class="view-more-btn">View All</a>
+        <a href="blog.php" class="view-more-btn">View All</a>
       </div>
     </section>
 
