@@ -39,15 +39,18 @@
 
           if ($matchCategory && $matchSearch): ?>
             <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="<?php echo $blog['img']; ?>" class="card-img-top" alt="<?php echo $blog['title']; ?>">
-                <div class="card-body">
-                  <h5 class="card-title"><?php echo $blog['title']; ?></h5>
-                  <p class="card-text"><?php echo $blog['desc']; ?></p>
-                  <span class="badge bg-secondary"><?php echo ucfirst($blog['category']); ?></span>
-                </div>
-              </div>
-            </div>
+  <a href="blog-details.php?title=<?php echo urlencode($blog['title']); ?>" class="text-decoration-none text-dark">
+    <div class="card h-100">
+      <img src="<?php echo $blog['img']; ?>" class="card-img-top" alt="<?php echo $blog['title']; ?>">
+      <div class="card-body">
+        <h5 class="card-title"><?php echo $blog['title']; ?></h5>
+        <p class="card-text"><?php echo $blog['desc']; ?></p>
+        <span class="badge bg-secondary"><?php echo ucfirst($blog['category']); ?></span>
+      </div>
+    </div>
+  </a>
+</div>
+
           <?php endif;
         }
       ?>
