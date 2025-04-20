@@ -13,6 +13,6 @@
   </nav>
 
   <!-- Main Content -->
-  <main class="main-section">
+  <!-- <main class="main-section"> -->
     <!-- Future content goes here -->
   </main>
