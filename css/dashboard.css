@@ -1,0 +1,134 @@
+/* Dashboard Layout */
+.dashboard-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.dashboard-sidebar {
+  width: 20vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.dashboard-sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-sidebar li {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: white;
+}
+
+.dashboard-sidebar li:hover,
+.dashboard-sidebar li.active {
+  background-color: #1a1a1a;
+  border-left: 4px solid white;
+}
+
+.dashboard-sidebar .logout {
+  color: red;
+  margin-top: auto;
+}
+
+.dashboard-sidebar .logout i,
+.dashboard-sidebar .logout span {
+  color: red;
+}
+
+.dashboard-main {
+  margin-left: 20vw;
+  padding: 30px;
+  flex: 1;
+  background: radial-gradient(circle at center, white, skyblue, lightgreen);
+  border-radius: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+.dashboard-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.menu-tab {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-tab a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu-tab a:hover {
+  color: #ddd;
+}
+
+.search-section input {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-pic img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
