@@ -57,8 +57,40 @@
   </nav>
 
   <main class="dashboard-main">
-    <!-- Future content goes here -->
+    <section class="container overview">
+  <h2>Overview</h2>
+  <div class="card-container">
+    <div class="card" id="total-revenue">
+      <i class="fa-solid fa-dollar-sign"></i>
+      <h3>Total Revenue</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+    <div class="card" id="net-profit">
+      <i class="fa-solid fa-coins"></i>
+      <h3>Net Profit</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+    <div class="card" id="time-sold">
+      <i class="fa-solid fa-clock"></i>
+      <h3>Time Sold</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+    <div class="card" id="growth">
+      <i class="fa-solid fa-chart-line"></i>
+      <h3>Growth</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+  </div>
+</section>
+
   </main>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/overview.js"></script>
+
 </body>
 </html>

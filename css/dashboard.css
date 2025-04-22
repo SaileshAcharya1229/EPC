@@ -132,3 +132,29 @@
   object-fit: cover;
   border: 2px solid #fff;
 }
+.overview h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  flex: 1 1 calc(50% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card i {
+  font-size: 2rem;
+  color: #00d1b2;
+  margin-bottom: 10px;
+  display: block;
+}
