@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href=".dashboard/css/dashboard.css" />
   </head>
-  <body>
+  <!-- <body> -->
 <!-- Header Section -->
 <header class="dashboard-header">
   <div class="header-container">
