@@ -1,141 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/dashboard.css">
 
-  <!-- External CSS -->
-  <link rel="stylesheet" href=".dashboard/css/dashboard.css">
+  </head>
+  <body>
+<!-- Header Section -->
+<header class="dashboard-header">
+  <div class="header-container">
+    <div class="left-section">
+      <div class="logo">MyDashboard</div>
+      <nav class="menu-tab">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+      </nav>
+    </div>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+    <div class="search-section">
+      <input type="text" placeholder="Search..." />
+    </div>
 
-<body>
-
-<div class="dashboard-container">
-
-  <!-- Sidebar -->
-  <aside class="sidebar" id="sidebar">
-    <div class="logo">LOGO</div>
-    <nav class="nav-menu">
-      <a href="#" class="nav-item active"><i class="fas fa-home"></i><span>Dashboard</span></a>
-      <a href="#" class="nav-item"><i class="fas fa-chart-line"></i><span>Reports</span></a>
-      <a href="#" class="nav-item"><i class="fas fa-chart-pie"></i><span>Analytics</span></a>
-      <a href="#" class="nav-item"><i class="fas fa-cogs"></i><span>Settings</span></a>
-      <a href="#" class="nav-item"><i class="fas fa-users"></i><span>Users</span></a>
-      <a href="#" class="nav-item"><i class="fas fa-bell"></i><span>Notifications</span></a>
-      <a href="#" class="nav-item logout"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
-    </nav>
-  </aside>
-
-  <!-- Main Content -->
-  <main class="main-content" id="main-content">
-    
-    <!-- Top Header -->
-    <header class="main-header">
-      <div class="header-left">
-        <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
-        <h2>Dashboard</h2>
+    <div class="right-section">
+      <div class="icon">🔔</div>
+      <div class="icon">💬</div>
+      <div class="icon">⚙️</div>
+      <div class="profile-pic">
+        <img src="asset/profile.png" alt="Profile" />
       </div>
-      <div class="header-right">
-        <div class="search-box">
-          <input type="text" placeholder="Search...">
-          <i class="fas fa-search"></i>
-        </div>
-        <i class="fas fa-cog"></i>
-        <i class="fas fa-envelope"></i>
-        <i class="fas fa-bell"></i>
-      </div>
-    </header>
+    </div>
+  </div>
+</header>
 
-    <!-- Overview Section -->
-    <section class="overview">
-      <div class="overview-header">
-        <h3>Overview</h3>
-        <button class="last-week-btn"><i class="fas fa-calendar-alt"></i> Last week</button>
-      </div>
-      
-      <div class="overview-cards">
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-coins"></i>
-          </div>
-          <div class="card-details">
-            <div class="card-top">
-              <span class="card-percentage">-85.1%</span>
-            </div>
-            <div class="card-bottom">
-              <h4>Total Revenue</h4>
-              <p>19.6K</p>
-            </div>
-          </div>
-        </div>
+<div class="dashboard-wrapper">
+  <nav class="dashboard-sidebar">
+    <ul>
+      <li class="tab active"><i class="fas fa-chart-line"></i><span>Dashboard</span></li>
+      <li class="tab"><i class="fas fa-user"></i><span>Profile</span></li>
+      <li class="tab"><i class="fas fa-database"></i><span>Data</span></li>
+      <li class="tab"><i class="fas fa-cog"></i><span>Settings</span></li>
+      <li class="tab"><i class="fas fa-envelope"></i><span>Messages</span></li>
+      <li class="tab"><i class="fas fa-bell"></i><span>Notifications</span></li>
+      <li class="tab logout"><i class="fas fa-sign-out-alt"></i><span>Logout</span></li>
+    </ul>
+  </nav>
 
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-dollar-sign"></i>
-          </div>
-          <div class="card-details">
-            <div class="card-top">
-              <span class="card-percentage">-85%</span>
-            </div>
-            <div class="card-bottom">
-              <h4>Net Profit</h4>
-              <p>7.1K</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-box"></i>
-          </div>
-          <div class="card-details">
-            <div class="card-top">
-              <span class="card-percentage">-88.4%</span>
-            </div>
-            <div class="card-bottom">
-              <h4>Items Sold</h4>
-              <p>43</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <div class="card-details">
-            <div class="card-top">
-              <span class="card-percentage">-85.1%</span>
-            </div>
-            <div class="card-bottom">
-              <h4>Growth</h4>
-              <p>-85.1%</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
+  <main class="dashboard-main">
+    <section class="container overview">
+  <h2>Overview</h2>
+  <div class="card-container">
+    <div class="card" id="total-revenue">
+      <i class="fa-solid fa-dollar-sign"></i>
+      <h3>Total Revenue</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+    <div class="card" id="net-profit">
+      <i class="fa-solid fa-coins"></i>
+      <h3>Net Profit</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+    <div class="card" id="time-sold">
+      <i class="fa-solid fa-clock"></i>
+      <h3>Time Sold</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+    <div class="card" id="growth">
+      <i class="fa-solid fa-chart-line"></i>
+      <h3>Growth</h3>
+      <p>This Week: <span class="this-week"></span></p>
+      <p>Last Week: <span class="last-week"></span></p>
+    </div>
+  </div>
+</section>
 
   </main>
-
 </div>
-
-<!-- Toggle Sidebar Script -->
-<script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const sidebar = document.getElementById('sidebar');
-  const mainContent = document.getElementById('main-content');
-
-  menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('sidebar-collapsed');
-    mainContent.classList.toggle('main-expanded');
-  });
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/overview.js"></script>
 
 </body>
 </html>
+
+
