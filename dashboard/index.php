@@ -84,9 +84,9 @@
       </section>
     </main>
   </div>
-
+<!-- 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.7/jquery.easypiechart.min.js"></script>
-  <script src="js/dashboard.js"></script>
+  <script src="js/dashboard.js"></script> -->
 </body>
 </html>
