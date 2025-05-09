@@ -15,4 +15,10 @@ document.getElementById("toggleSidebar").addEventListener("click", function () {
   sidebar.classList.toggle("collapsed");
   main.classList.toggle("full-width");
   dashboardBar.classList.toggle("full-width");
+  document
+    .getElementById("toggleSidebar")
+    .addEventListener("click", function () {
+      document.getElementById("sidebar").classList.toggle("collapsed");
+      document.getElementById("main-content").classList.toggle("full-width");
+    });
 });
