@@ -13,14 +13,16 @@ body {
 
 /* Sidebar */
 #sidebar {
-  width: 250px; /* You can adjust this width as needed */
-  height: 100vh; /* This ensures the sidebar fills the full height */
+  width: 250px;
+  height: 100vh;
+  background-color: #1f232a;
+  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #212529;
-  color: white;
-  overflow-y: auto; /* Allows scrolling if content exceeds height */
+  overflow-y: auto;
+  padding-top: 20px;
+  z-index: 1000; /* Allows scrolling if content exceeds height */
 }
 
 /* Main content area */
@@ -42,4 +44,28 @@ body {
     margin-left: 70px; /* Adjust main content area accordingly */
     width: calc(100% - 70px); /* Ensure content takes the remaining space */
   }
+}
+/* Sidebar menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-menu li {
+  padding: 15px 20px;
+  transition: background-color 0.3s;
+}
+.sidebar-menu li a {
+  display: block; /* make it fill the li */
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+/* Hover effect */
+.sidebar-menu li a:hover {
+  background-color: #343a40; /* dark gray */
+}
+
+.sidebar-menu li a i {
+  margin-right: 10px;
 }
