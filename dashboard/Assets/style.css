@@ -52,20 +52,31 @@ body {
   margin: 0;
 }
 .sidebar-menu li {
-  padding: 15px 20px;
-  transition: background-color 0.3s;
+  padding: 0px;
 }
 .sidebar-menu li a {
-  display: block; /* make it fill the li */
-  padding: 10px 20px;
+  display: block;
+  padding: 15px 20px;
   color: white;
   text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, font-size 0.3s;
 }
 /* Hover effect */
 .sidebar-menu li a:hover {
-  background-color: #343a40; /* dark gray */
+  background-color: #343a40; /* dark gray background on hover */
+  color: #00d9ff; /* example highlight color */
+  font-size: 17px;
 }
 
 .sidebar-menu li a i {
   margin-right: 10px;
+}
+#sidebar .nav-link:hover {
+  background-color: #343a40;
+  color: #00d9ff;
+  font-size: 17px;
+}
+#sidebar .nav-link {
+  transition: background-color 0.3s, color 0.3s, font-size 0.3s;
 }
