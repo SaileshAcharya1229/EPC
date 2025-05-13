@@ -1,6 +1,14 @@
 <aside class="bg-dark text-white" id="sidebar">
+<!--   
+ Hamburger Button -->
+ <div class="sidebar-toggle-btn text-end ">
+    <button id="toggleSidebar" class="btn btn-outline-light btn-sm">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
   <ul class="nav flex-column mt-4">
     <li class="nav-item">
+    
       <a href="#" class="nav-link text-white">
         <i class="fas fa-tachometer-alt me-2"></i> <span class="link-text">Dashboard</span>
       </a>

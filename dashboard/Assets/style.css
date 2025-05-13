@@ -80,3 +80,24 @@ body {
 #sidebar .nav-link {
   transition: background-color 0.3s, color 0.3s, font-size 0.3s;
 }
+/* Collapsed sidebar */
+#sidebar.collapsed {
+  width: 70px;
+}
+
+#main-content.full-width {
+  margin-left: 70px;
+  width: calc(100% - 70px);
+}
+
+/* Hide text when sidebar is collapsed */
+#sidebar.collapsed .link-text {
+  display: none;
+}
+.sidebar-toggle-btn {
+  margin-bottom: 0;
+  padding: 0 15px; /* optional, adjust as needed */
+}
+.sidebar-menu {
+  margin-top: 0;
+}

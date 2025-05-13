@@ -8,4 +8,6 @@
     <!-- Your content -->
   </main>
 </div>
+
+
 <?php include('partials/footer.php'); ?>
