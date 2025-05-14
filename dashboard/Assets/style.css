@@ -4,6 +4,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 
 .wrapper {
@@ -14,24 +15,26 @@ body {
 /* Sidebar */
 #sidebar {
   width: 250px;
-  height: 100vh;
-  background-color: #1f232a;
-  color: #fff;
+  height: calc(100vh - 60px); /* Adjust for navbar height */
   position: fixed;
-  top: 0;
+  top: 60px; /* Start below navbar */
   left: 0;
+  background-color: #1f232a;
   overflow-y: auto;
-  padding-top: 20px;
-  z-index: 1000; /* Allows scrolling if content exceeds height */
+  /* Allows scrolling if content exceeds height */
 }
 
 /* Main content area */
 #main-content {
-  margin-left: 250px; /* Ensures the content is to the right of the sidebar */
+  overflow: hidden !important;
+  margin-left: 250px;
+  margin-top: 60px; /* Push content below navbar */
   padding: 20px;
   background-color: #f8f9fa;
-  width: calc(100% - 250px); /* This adjusts the width of the content area */
-  min-height: 100vh; /* Optional but helps ensure the content area takes full height */
+  width: calc(100% - 250px);
+  min-height: calc(
+    100vh - 60px
+  ); /* Optional but helps ensure the content area takes full height */
 }
 
 /* Responsive for smaller screens */
@@ -93,6 +96,13 @@ body {
 /* Hide text when sidebar is collapsed */
 #sidebar.collapsed .link-text {
   display: none;
+}
+#main-content {
+  transition: margin-left 0.3s ease;
+}
+
+#sidebar.collapsed ~ #main-content {
+  margin-left: 70px;
 }
 .sidebar-toggle-btn {
   margin-bottom: 0;

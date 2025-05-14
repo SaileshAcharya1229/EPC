@@ -1,8 +1,9 @@
-const toggleBtn = document.getElementById("toggleSidebar");
-const sidebar = document.getElementById("sidebar");
-const mainContent = document.getElementById("main-content");
+console.log("Script loaded");
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("sidebarToggle");
+  const sidebar = document.getElementById("sidebar");
 
-toggleBtn.addEventListener("click", function () {
-  sidebar.classList.toggle("collapsed");
-  mainContent.classList.toggle("full-width");
+  toggleButton.addEventListener("click", function () {
+    sidebar.classList.toggle("collapsed");
+  });
 });
