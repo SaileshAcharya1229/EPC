@@ -7,17 +7,17 @@
   <ul class="nav flex-column mt-4">
     <li class="nav-item">
     
-      <a href="#" class="nav-link text-white">
+      <a href="index.php?page=home" class="nav-link text-white">
         <i class="fas fa-tachometer-alt me-2"></i> <span class="link-text">Dashboard</span>
       </a>
     </li>
     <li class="nav-item">
-      <a href="partials/addblogs.php"" class="nav-link text-white">
+      <a href="index.php?page=addblogs" class="nav-link text-white">
         <i class="fas fa-pen me-2"></i> <span class="link-text">Add Blogs</span>
       </a>
     </li>
     <li class="nav-item">
-      <a href="partials/viewblogs.php" class="nav-link text-white">
+      <a href="index.php?page=viewblogs" class="nav-link text-white">
         <i class="fas fa-eye me-2"></i> <span class="link-text">View Blogs</span>
       </a>
     </li>

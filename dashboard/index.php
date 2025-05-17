@@ -1,11 +1,9 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+$page = $_GET['page'] ?? 'home';
 ?>
 
-<?php
-  $page = $_GET['page'] ?? 'home';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,26 +27,22 @@ ini_set('display_errors', 1);
   </style>
 </head>
 <body>
-  <?php include '../partials/header.php'; ?>
+  <?php include 'partials/header.php'; ?>
   <div class="wrapper">
-    <?php include '../partials/sidebar.php'; ?>
+    <?php include 'partials/sidebar.php'; ?>
 
-    <!-- Dynamic Section -->
     <div id="main-content">
-    <?php
-$page = $_GET['page'] ?? 'home';
-
-if ($page === 'addblogs') {
-    include '../partials/addblogs.php';
-} elseif ($page === 'viewblogs') {
-    include '../partials/viewblogs.php';
-} else {
-    include '../partials/dashboard-strip.php'; // or home.php if that's your default
-}
-?>
-
+      <?php
+        if ($page === 'addblogs') {
+            include 'partials/addblogs.php';
+        } elseif ($page === 'viewblogs') {
+            include 'partials/viewblogs.php';
+        } else {
+            include 'partials/dashboard-strip.php'; // Or home.php if you have it
+        }
+      ?>
     </div>
   </div>
-  <?php include 'footer.php'; ?>
+  <?php include 'partials/footer.php'; ?>
 </body>
 </html>
