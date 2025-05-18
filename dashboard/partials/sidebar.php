@@ -32,7 +32,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-white">
+      <a href="index.php?page=categories" class="nav-link text-white">
         <i class="fas fa-list-alt me-2"></i> <span class="link-text">Categories</span>
       </a>
     </li>
@@ -42,7 +42,7 @@
       </a>
     </li>  
     <li class="nav-item">
-      <a href="#" class="nav-link text-white">
+      <a href="index.php?page=settings" class="nav-link text-white">
         <i class="fas fa-cogs me-2"></i> <span class="link-text">Settings</span>
       </a>
     </li> 

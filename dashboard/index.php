@@ -37,7 +37,19 @@ $page = $_GET['page'] ?? 'home';
             include 'partials/addblogs.php';
         } elseif ($page === 'viewblogs') {
             include 'partials/viewblogs.php';
-        } else {
+        } elseif ($page === 'categories') {
+            include 'partials/categories.php';
+        } elseif ($page === 'addcategory') {
+            include 'partials/addcategory.php';
+        } elseif ($page === 'viewcategory') {
+            include 'partials/viewcategory.php';
+        } elseif ($page === 'users') {
+            include 'partials/users.php';
+        } elseif ($page === 'settings') {
+            include 'partials/settings.php';
+        } 
+        
+        else {
             include 'partials/dashboard-strip.php'; // Or home.php if you have it
         }
       ?>
