@@ -27,7 +27,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-white">
+      <a href="index.php?page=services" class="nav-link text-white">
         <i class="fas fa-plus me-2"></i> <span class="link-text">Add Services</span>
       </a>
     </li>
