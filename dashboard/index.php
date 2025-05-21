@@ -43,8 +43,8 @@ $page = $_GET['page'] ?? 'home';
             include 'partials/addcategory.php';
         } elseif ($page === 'viewcategory') {
             include 'partials/viewcategory.php';
-        } elseif ($page === 'services') {
-            include 'partials/services.php';
+        } elseif ($page === 'add_services') {
+            include 'partials/add_services.php';
             
         } elseif ($page === 'settings') {
             include 'partials/settings.php';
