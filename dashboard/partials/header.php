@@ -12,14 +12,11 @@
 </head>
 <body>
   <!-- Top Navbar -->
-  <nav class="navbar navbar-light bg-white shadow-sm px-4 py-2 d-flex justify-content-between align-items-center">
-    <div class="navbar-brand fw-bold d-flex align-items-center">
-      <img src="/images/logoipsum-350.svg" alt="EPC logo" style="height:40px; width:auto; margin-right:10px;">
-      
-    </div>
-    
-    <div class="dropdown">
-      <i class="fa-solid fa-circle-user fa-2x" id="profileDropdown" style="cursor:pointer;" aria-label="Profile"></i>
-      
-    </div>
-  </nav>
+ 
+<nav class="navbar navbar-light bg-white shadow-sm px-4 py-2 d-flex justify-content-between align-items-center" style="height: 60px;">
+  <div class="navbar-brand fw-bold d-flex align-items-center">
+    <img src="/images/logoipsum-350.svg" alt="EPC logo" style="height:40px; width:auto; margin-right:10px;">
+  </div>
+</nav>
+
+

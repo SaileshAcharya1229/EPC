@@ -1,9 +1,7 @@
-console.log("Script loaded");
-document.addEventListener("DOMContentLoaded", function () {
-  const toggleButton = document.getElementById("sidebarToggle");
+document.getElementById("sidebarToggle").addEventListener("click", function () {
   const sidebar = document.getElementById("sidebar");
+  const mainContent = document.getElementById("main-content");
 
-  toggleButton.addEventListener("click", function () {
-    sidebar.classList.toggle("collapsed");
-  });
+  sidebar.classList.toggle("collapsed");
+  mainContent.classList.toggle("collapsed");
 });
