@@ -24,7 +24,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="index.php?page=add_services" class="nav-link text-white">
+      <a href="index.php?page=service_list" class="nav-link text-white">
         <i class="fas fa-concierge-bell me-2"></i>
         <span class="link-text">Services</span>
       </a>
