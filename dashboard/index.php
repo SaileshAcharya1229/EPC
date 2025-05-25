@@ -41,8 +41,8 @@ $page = $_GET['page'] ?? 'home';
             include 'partials/categories.php';
         } elseif ($page === 'addcategory') {
             include 'partials/addcategory.php';
-        } elseif ($page === 'service_list') {
-            include 'partials/service_list.php';
+        // } elseif ($page === 'service_list') {
+        //     include 'partials/service_list.php';
         
         
         // } elseif ($page === 'viewcategory') {
