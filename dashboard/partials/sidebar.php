@@ -42,7 +42,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-white">
+      <a href="index.php?page=manage_site" class="nav-link text-white">
         <i class="fas fa-globe me-2"></i>
         <span class="link-text">Manage Sites</span>
       </a>

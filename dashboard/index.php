@@ -41,12 +41,11 @@ $page = $_GET['page'] ?? 'home';
             include 'partials/categories.php';
         } elseif ($page === 'addcategory') {
             include 'partials/addcategory.php';
-        // } elseif ($page === 'service_list') {
-        //     include 'partials/service_list.php';
-        
-        
-        // } elseif ($page === 'viewcategory') {
-        //     include 'partials/viewcategory.php';
+        } elseif ($page === 'service_list') {
+            include 'partials/service_list.php'; 
+         } elseif ($page === 'manage_site') {
+            include 'partials/manage_site.php';
+             include 'partials/viewcategory.php';
         } elseif ($page === 'add_services') {
             include 'partials/add_services.php';
             
