@@ -2,6 +2,8 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 $page = $_GET['page'] ?? 'home';
+// Debug output
+
 ?>
 
 <!DOCTYPE html>
@@ -45,8 +47,8 @@ $page = $_GET['page'] ?? 'home';
             include 'partials/service_list.php'; 
          } elseif ($page === 'manage_site') {
             include 'partials/manage_site.php';
-             include 'partials/viewcategory.php';
-        } elseif ($page === 'add_services') {
+         }
+         elseif ($page === 'add_services') {
             include 'partials/add_services.php';
             
         } elseif ($page === 'settings') {

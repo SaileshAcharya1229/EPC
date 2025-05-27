@@ -10,7 +10,7 @@ body {
 #sidebar {
   width: 250px;
   height: calc(100% - 60px);
-  position: fixed;
+  position: static;
   left: 0;
   top: 60px;
   background-color: #1f232a;
