@@ -6,7 +6,7 @@ $totalServices = 15;
 $totalCategories = 8;
 ?>
 
-<div style="display: flex; gap: 24px; margin-bottom: 32px;">
+<div classs="details" style="display: flex; gap: 24px; margin-bottom: 32px;flex-wrap: wrap;">
   <div style="flex:1; background: #f5f5f5; padding: 24px; border-radius: 8px; text-align: center;">
     <h2 style="margin: 0; font-size: 2.5rem; color: #007bff;"><?php echo $totalBlogs; ?></h2>
     <p style="margin: 8px 0 0; font-size: 1.1rem; color: #333;">Total Blogs</p>
