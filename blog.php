@@ -23,10 +23,10 @@
       <?php
         // Dummy blog data
         $blogs = [
-          ['title' => 'How to Choose the Right Plumber', 'category' => 'plumbing', 'desc' => 'Tips to find a good plumber.', 'img' => 'https://fakeimg.pl/300x200'],
-          ['title' => 'Electrical Safety Tips', 'category' => 'electrical', 'desc' => 'Stay safe around electricity.', 'img' => 'https://fakeimg.pl/300x200'],
-          ['title' => 'Essential Home Cleaning Tips', 'category' => 'cleaning', 'desc' => 'Clean smarter, not harder.', 'img' => 'https://fakeimg.pl/300x200'],
-          ['title' => 'Winter Plumbing Checklist', 'category' => 'plumbing', 'desc' => 'Avoid frozen pipes in winter.', 'img' => 'https://fakeimg.pl/300x200'],
+          ['title' => 'How to Choose the Right Plumber', 'category' => 'plumbing', 'desc' => 'Tips to find a good plumber.', 'img' => 'https://picsum.photos/300/200'],
+          ['title' => 'Electrical Safety Tips', 'category' => 'electrical', 'desc' => 'Stay safe around electricity.', 'img' => 'https://picsum.photos/300/200'],
+          ['title' => 'Essential Home Cleaning Tips', 'category' => 'cleaning', 'desc' => 'Clean smarter, not harder.', 'img' => 'https://picsum.photos/300/200'],
+          ['title' => 'Winter Plumbing Checklist', 'category' => 'plumbing', 'desc' => 'Avoid frozen pipes in winter.', 'img' => 'https://picsum.photos/300/200'],
         ];
 
         // Filtering logic

@@ -13,9 +13,12 @@
 <body>
   <!-- Top Navbar -->
  
-<nav class="navbar navbar-light bg-white shadow-sm px-4 py-2 d-flex justify-content-between align-items-center" style="height: 60px;">
+<nav class="navbar navbar-light bg-white shadow-sm px-4 py-2 d-flex justify-content-between align-items-center" style="height: 60px;position:sticky; top: 0; z-index: 4;width: 100%;">
   <div class="navbar-brand fw-bold d-flex align-items-center">
     <img src="/images/logoipsum-350.svg" alt="EPC logo" style="height:40px; width:auto; margin-right:10px;">
+  </div>
+  <div class="d-flex align-items-center">
+    <i class="fa-solid fa-circle-user" style="font-size: 40px; color: #333;"></i>
   </div>
 </nav>
 

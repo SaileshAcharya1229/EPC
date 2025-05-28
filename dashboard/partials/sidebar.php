@@ -1,4 +1,4 @@
-<aside class="bg-dark text-white" id="sidebar">
+<aside class=" text-white" id="sidebar">
   <!-- Toggle Button -->
   <div id="sidebarToggle" style="cursor: pointer; padding: 15px;">
     <i class="fas fa-bars text-white"></i>

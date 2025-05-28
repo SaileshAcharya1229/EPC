@@ -19,7 +19,7 @@ $page = $_GET['page'] ?? 'home';
     }
     #sidebar {
       width: 250px;
-      background-color: #111;
+      /* background-color: #111; */
       color: white;
     }
     #main-content {

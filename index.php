@@ -24,7 +24,7 @@
     <section id="about" class="py-5 bg-light">
       <div class="container about-content">
         <img
-          src="https://fakeimg.pl/500x300"
+          src="https://picsum.photos/500/300"
           alt="About Us"
           class="about-img"
         />
@@ -48,7 +48,7 @@
           <div class="col-md-4">
             <div class="card service-card">
               <img
-                src="https://fakeimg.pl/200x150"
+                src="https://picsum.photos/200/150"
                 alt="Plumbing"
                 loading="lazy"
               />
@@ -59,7 +59,7 @@
           <div class="col-md-4">
             <div class="card service-card">
               <img
-                src="https://fakeimg.pl/200x150"
+                src="https://picsum.photos/200/150"
                 alt="Electrical"
                 loading="lazy"
               />
@@ -70,7 +70,7 @@
           <div class="col-md-4">
             <div class="card service-card">
               <img
-                src="https://fakeimg.pl/200x150"
+                src="https://picsum.photos/200/150"
                 alt="Cleaning"
                 loading="lazy"
               />
@@ -90,7 +90,7 @@
           <div class="col-md-4">
             <div class="blog-card">
               <img
-                src="https://fakeimg.pl/300x200"
+                src="https://picsum.photos/300/200"
                 alt="Blog 1"
                 loading="lazy"
               />
@@ -106,7 +106,7 @@
           <div class="col-md-4">
             <div class="blog-card">
               <img
-                src="https://fakeimg.pl/300x200"
+                src="https://picsum.photos/300/200"
                 alt="Blog 2"
                 loading="lazy"
               />
@@ -122,7 +122,7 @@
           <div class="col-md-4">
             <div class="blog-card">
               <img
-                src="https://fakeimg.pl/300x200"
+                src="https://picsum.photos/300/200"
                 alt="Blog 3"
                 loading="lazy"
               />
