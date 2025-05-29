@@ -13,3 +13,5 @@ const toggle = () => {
   }
 };
 window.addEventListener("resize", toggle);
+
+window.addEventListener("DOMContentLoaded", toggle);

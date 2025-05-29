@@ -6,11 +6,22 @@ body {
   height: 100%;
   font-family: sans-serif;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-container {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+}
 
 #sidebar {
+  height: 100vh;
+  flex-shrink: 0;
   width: 250px;
 
-  height: 100vh; /* Full height sidebar */
+  /* Full height sidebar */
   position: relative;
   left: 0;
 
@@ -84,4 +95,3 @@ body {
     width: 70px;
   }
 }
-

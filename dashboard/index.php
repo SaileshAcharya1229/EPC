@@ -15,7 +15,7 @@ $page = $_GET['page'] ?? 'home';
   <style>
     .wrapper {
       display: flex;
-      min-height: 100vh;
+      
     }
     #sidebar {
       width: 250px;
