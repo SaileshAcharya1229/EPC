@@ -1,3 +1,4 @@
+<div class="wrapper " style="background-color: #343a40;">
 <aside class=" text-white" id="sidebar">
   <!-- Toggle Button -->
   <div id="sidebarToggle" style="cursor: pointer; padding: 15px;">
@@ -61,3 +62,5 @@
     </li>
   </ul>
 </aside>
+
+</div>

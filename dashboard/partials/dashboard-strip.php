@@ -1,25 +1,26 @@
 <!-- File: partials/dashboard-strip.php -->
 <?php
 // Example data, replace with your actual data fetching logic
-$totalBlogs = 42;
+$totalBlogs = 43;
 $totalServices = 15;
 $totalCategories = 8;
 ?>
 
-<div classs="details" style="display: flex; gap: 24px; margin-bottom: 32px;flex-wrap: wrap;">
-  <div style="flex:1; background: #f5f5f5; padding: 24px; border-radius: 8px; text-align: center;">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #007bff;"><?php echo $totalBlogs; ?></h2>
-    <p style="margin: 8px 0 0; font-size: 1.1rem; color: #333;">Total Blogs</p>
+<div class="details" style="display: flex; gap: 16px; margin: 0 0 16px; flex-wrap: wrap;">
+  <div style="flex: 1 1 150px; background: #f5f5f5; padding: 16px; border-radius: 6px; text-align: center; min-width: 150px;">
+    <h2 style="margin: 0; font-size: 1.75rem; color: #007bff;"><?php echo $totalBlogs; ?></h2>
+    <p style="margin: 6px 0 0; font-size: 0.95rem; color: #333;">Total Blogs</p>
   </div>
-  <div style="flex:1; background: #f5f5f5; padding: 24px; border-radius: 8px; text-align: center;">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #28a745;"><?php echo $totalServices; ?></h2>
-    <p style="margin: 8px 0 0; font-size: 1.1rem; color: #333;">Total Services</p>
+  <div style="flex: 1 1 150px; background: #f5f5f5; padding: 16px; border-radius: 6px; text-align: center; min-width: 150px;">
+    <h2 style="margin: 0; font-size: 1.75rem; color: #28a745;"><?php echo $totalServices; ?></h2>
+    <p style="margin: 6px 0 0; font-size: 0.95rem; color: #333;">Total Services</p>
   </div>
-  <div style="flex:1; background: #f5f5f5; padding: 24px; border-radius: 8px; text-align: center;">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #ffc107;"><?php echo $totalCategories; ?></h2>
-    <p style="margin: 8px 0 0; font-size: 1.1rem; color: #333;">Total Categories</p>
+  <div style="flex: 1 1 150px; background: #f5f5f5; padding: 16px; border-radius: 6px; text-align: center; min-width: 150px;">
+    <h2 style="margin: 0; font-size: 1.75rem; color: #ffc107;"><?php echo $totalCategories; ?></h2>
+    <p style="margin: 6px 0 0; font-size: 0.95rem; color: #333;">Total Categories</p>
   </div>
 </div>
+
 <!-- Filter Controls -->
 <div class="mb-4">
   <form id="filterForm" class="form-inline">

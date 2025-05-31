@@ -6,8 +6,11 @@ body {
   height: 100%;
   font-family: sans-serif;
 }
-
-
+.wrapper {
+  display: flex;
+  height: 100vh; /* FULL viewport height */
+  overflow: hidden; /* Prevent scrolling inside wrapper */
+}
 .dashboard-container {
   display: flex;
   flex: 1;
@@ -18,13 +21,9 @@ body {
   height: 100vh;
   flex-shrink: 0;
   width: 250px;
-
-  /* Full height sidebar */
   position: relative;
   left: 0;
-
   background-color: #1f232a;
-
   transition: width 0.3s ease;
 }
 
@@ -81,8 +80,11 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: #f9f9f9;
 }
-
 /* Responsive */
 @media (max-width: 768px) {
   #sidebar {

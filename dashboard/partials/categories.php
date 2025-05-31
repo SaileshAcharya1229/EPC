@@ -1,6 +1,6 @@
 <?php
 // Demo: categories in a simple array (no session, no persistence)
-$categories = ['Electrician', 'Plumbing', 'Painting', 'Cleaning'];
+$categories = ['Electrician', 'Plumbing', 'Painting', 'Cleaning', 'Gardening','Electrician', 'Plumbing', 'Painting', 'Cleaning', 'Gardening','Electrician', 'Plumbing', 'Painting', 'Cleaning', 'Gardening'];
 
 // Handle Add
 if (isset($_POST['add']) && !empty(trim($_POST['category']))) {
