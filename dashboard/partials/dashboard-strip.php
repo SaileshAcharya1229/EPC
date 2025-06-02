@@ -6,39 +6,58 @@ $totalServices = 15;
 $totalCategories = 8;
 ?>
 
-<div class="details" style="display: flex; gap: 16px; margin: 0 0 16px; flex-wrap: wrap;">
-  <div style="flex: 1 1 150px; background: #f5f5f5; padding: 16px; border-radius: 6px; text-align: center; min-width: 150px;">
-    <h2 style="margin: 0; font-size: 1.75rem; color: #007bff;"><?php echo $totalBlogs; ?></h2>
-    <p style="margin: 6px 0 0; font-size: 0.95rem; color: #333;">Total Blogs</p>
+<div class="container-fluid">
+  <!-- Row 1: Three boxes -->
+  <div class="row mb-4">
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2 class="text-primary"><?php echo $totalBlogs; ?></h2>
+          <p>Total Blogs</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2 class="text-success"><?php echo $totalServices; ?></h2>
+          <p>Total Services</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2 class="text-warning"><?php echo $totalCategories; ?></h2>
+          <p>Total Categories</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div style="flex: 1 1 150px; background: #f5f5f5; padding: 16px; border-radius: 6px; text-align: center; min-width: 150px;">
-    <h2 style="margin: 0; font-size: 1.75rem; color: #28a745;"><?php echo $totalServices; ?></h2>
-    <p style="margin: 6px 0 0; font-size: 0.95rem; color: #333;">Total Services</p>
-  </div>
-  <div style="flex: 1 1 150px; background: #f5f5f5; padding: 16px; border-radius: 6px; text-align: center; min-width: 150px;">
-    <h2 style="margin: 0; font-size: 1.75rem; color: #ffc107;"><?php echo $totalCategories; ?></h2>
-    <p style="margin: 6px 0 0; font-size: 0.95rem; color: #333;">Total Categories</p>
+
+  <!-- Row 2: Filter + Chart -->
+  <div class="row">
+    <div class="col-12 mb-3">
+      <form id="filterForm" class="form-inline">
+        <label for="filterRange" class="mr-2 font-weight-bold">Show Data For:</label>
+        <select id="filterRange" class="form-control">
+          <option value="week">This Week</option>
+          <option value="month" selected>This Month</option>
+          <option value="year">This Year</option>
+        </select>
+      </form>
+    </div>
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <canvas id="dashboardChart" height="100"></canvas>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- Filter Controls -->
-<div class="mb-4">
-  <form id="filterForm" class="form-inline">
-    <label for="filterRange" class="mr-2 font-weight-bold">Show Data For:</label>
-    <select id="filterRange" class="form-control">
-      <option value="week">This Week</option>
-      <option value="month" selected>This Month</option>
-      <option value="year">This Year</option>
-    </select>
-  </form>
-</div>
 
-<!-- Chart Container -->
-<div class="card">
-  <div class="card-body">
-    <canvas id="dashboardChart" height="100"></canvas>
-  </div>
-</div>
 
 <!-- Chart.js CDN -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
