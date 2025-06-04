@@ -47,7 +47,7 @@ $totalCategories = 8;
         </select>
       </form>
     </div>
-    <div class="col-12">
+    <!-- <div class="col-12">
       <div class="card">
         <div class="card-body">
           <canvas id="dashboardChart" height="100"></canvas>
@@ -55,7 +55,7 @@ $totalCategories = 8;
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
