@@ -109,6 +109,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <input type="checkbox" name="checkbox"> Stay signed in for a week
                                     </label>
                                 </div>
+                                <div class="field">
+        <?php if (!empty($error)) { echo "<div class='error'>$error</div>"; } ?>
+    </div>
                                 <div class="field padding-bottom--24">
                                     <input type="submit" name="submit" value="Continue">
                                 </div>

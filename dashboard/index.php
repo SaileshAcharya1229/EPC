@@ -1,10 +1,17 @@
 <?php
+session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$page = $_GET['page'] ?? 'home';
-// Debug output
 
+// 🔐 Access control: check if user is logged in
+if (!isset($_SESSION['user_id'])) {
+    header('Location: login.php'); // redirect to login if not logged in
+    exit();
+}
+
+$page = $_GET['page'] ?? 'home';
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
