@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#home">
-          <img src="./images/logoipsum-350.svg" alt="Logo" />
+          <img src="./images/logo.png" alt="Logo" />
         </a>
         <button
           class="navbar-toggler"
