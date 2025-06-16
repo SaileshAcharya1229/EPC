@@ -20,7 +20,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#home">
-          <img src="./images/logo.png" alt="Logo" />
+        <img src="./images/alogo.png" alt="Logo" style="width:80px; height:53px;" />
+
         </a>
         <button
           class="navbar-toggler"

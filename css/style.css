@@ -48,15 +48,15 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url("https://picsum.photos/1600/900") no-repeat center
-    center/cover;
+  background: url("../images/banner.png") no-repeat center center/cover;
+  background-position: center 70px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: black;
   padding: 20px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -412,6 +412,15 @@ body {
   .blog-card:hover {
     transform: translateY(-5px);
   }
+  .logo-img {
+    height: 50px; /* Adjust this based on your logo */
+    width: auto;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* optional spacing */
+  }
+
   /* Blog Card Styles */
 
   /* .blog-section {
