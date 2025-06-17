@@ -42,10 +42,9 @@
         <div>
           <h2>About Us</h2>
           <p>
-            Hami Sangai connects you with professional service providers for all
-            your home needs, offering seamless booking experiences. Whether you
-            need plumbing, electrical, cleaning, or any other service, we make
-            sure you get the best at your doorstep.
+          Welcome to EPC – ElecPlumb City, Hetauda’s trusted name in plumbing, electrical, and painting services. Founded with a mission to make home maintenance easy and hassle-free, we connect you with skilled verified technicians for all your home improvement needs.
+
+Whether it’s fixing a leak, installing new wiring, or repainting your home, our experienced team ensures quality service, timely work, and customer satisfaction. We serve residential and commercial clients across Hetauda, offering affordable, fast, and guaranteed solutions.
           </p>
         </div>
       </div>
@@ -59,7 +58,7 @@
           <div class="col-md-4">
             <div class="card service-card">
               <img
-                src="./images/electrician1.png"
+                src="./images/plumbing.png"
                 alt="Plumbing"
                 loading="lazy"
               />
@@ -70,7 +69,7 @@
           <div class="col-md-4">
             <div class="card service-card">
               <img
-                src="https://picsum.photos/200/150"
+                src="./images/ele.png"
                 alt="Electrical"
                 loading="lazy"
               />
@@ -81,7 +80,7 @@
           <div class="col-md-4">
             <div class="card service-card">
               <img
-                src="https://picsum.photos/200/150"
+                src="./images/cleaning.png"
                 alt="Cleaning"
                 loading="lazy"
               />
@@ -154,51 +153,47 @@
     </section>
     <!-- Testimonials Section -->
     
-    <section id="testimonials" class="py-5" style="background: #f6faff;">
-      <div class="container text-center">
-        <h2 style="color: #1739a7; font-weight: bold; margin-bottom: 0.5rem;">Testimonials</h2>
-        <p style="color: #555; margin-bottom: 2rem;">
-          Our customers and providers place huge value on flourishing our services.<br>
-          Check our customer's genuine ratings and reviews.
+    <section id="testimonials" class="py-5" style="background: #f7f9fa;">
+  <div class="container text-center">
+    <h2 style="color: #1739a7; font-weight: bold; margin-bottom: 0.5rem;">Testimonials</h2>
+    <p style="color: #555; margin-bottom: 2rem;">
+      Our customers and providers place huge value on flourishing our services.<br>
+      Check our customer's genuine ratings and reviews.
+    </p>
+
+    <div class="d-flex justify-content-center gap-4 flex-wrap" style="max-width: 1000px; margin: 0 auto;">
+      
+      <!-- Card 1 -->
+       <div style="flex: 1 1 45%; min-width: 300px; background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 16px rgba(0,0,0,0.05); text-align: left;">
+        <div style="color: #ffd600; font-size: 2rem; line-height: 1;">&#10077;</div>
+        <p style="margin-top: 1rem; color: #333; font-size: 1rem;">
+          Hami Sangai and EPC is together since 7 month and we are happy that we are able to get many works from EPC.
+          The company is helping us to market our service in the larger audience. We hope the bond gets stronger between
+          us and EPC in coming days.
         </p>
-        <div class="testimonial-slider" style="max-width: 900px; margin: 0 auto; position: relative;">
-          <div id="testimonialSlides" style="display: flex; transition: transform 0.7s cubic-bezier(.77,0,.18,1); will-change: transform;">
-            <!-- Testimonial 1 -->
-            <div class="testimonial-item" style="min-width: 100%; box-sizing: border-box; background: #fff; border-radius: 12px; margin: 1rem 0.5rem; padding: 2rem 1.5rem; box-shadow: 0 2px 12px rgba(23,57,167,0.06); text-align: left; position: relative;">
-              <span style="color: #ffd600; font-size: 2.5rem; font-weight: bold; position: absolute; top: 1.5rem; left: 1.5rem;">&#10077;&#10077;</span>
-              <div style="margin-top: 2.5rem;">
-                <p style="color: #444; font-size: 1.1rem; margin-bottom: 0.5rem;">
-                  <span style="color: #ffd600; font-size: 1.8rem;">&#10077;</span>
-                  I ordered SS tank from Bhetayo before Dashain. At first, I was skeptical about the product since the price was comparatively low than the market price. But I received the product on time and on very good condition. Later I reordered another 1K ltr SS tank and there was no change in my expectation.
-                </p>
-              </div>
-            </div>
-            <!-- Testimonial 2 -->
-            <div class="testimonial-item" style="min-width: 100%; box-sizing: border-box; background: #fff; border-radius: 12px; margin: 1rem 0.5rem; padding: 2rem 1.5rem; box-shadow: 0 2px 12px rgba(23,57,167,0.06); text-align: left; position: relative;">
-              <span style="color: #ffd600; font-size: 2.5rem; font-weight: bold; position: absolute; top: 1.5rem; left: 1.5rem;">&#10077;&#10077;</span>
-              <div style="margin-top: 2.5rem;">
-                <p style="color: #444; font-size: 1.1rem; margin-bottom: 0.5rem;">
-                  I have started Parlor Service for long time. Though service was same for me but connecting customer digitally via Bhetayo was different. It is exciting for me as I am serving new customer and growing my business as well. I am very excited and enjoying connecting with Bhetayo.
-                </p>
-              </div>
-            </div>
-            <!-- Testimonial 3 -->
-            <div class="testimonial-item" style="min-width: 100%; box-sizing: border-box; background: #fff; border-radius: 12px; margin: 1rem 0.5rem; padding: 2rem 1.5rem; box-shadow: 0 2px 12px rgba(23,57,167,0.06); text-align: left; position: relative;">
-              <span style="color: #ffd600; font-size: 2.5rem; font-weight: bold; position: absolute; top: 1.5rem; left: 1.5rem;">&#10077;&#10077;</span>
-              <div style="margin-top: 2.5rem;">
-                <p style="color: #444; font-size: 1.1rem; margin-bottom: 0.5rem;">
-                  I have started Parlor Service for long time. Though service was same for me but connecting customer digitally via Bhetayo was different. It is exciting for me as I am serving new customer and growing my business as well. I am very excited and enjoying connecting with Bhetayo.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Navigation Arrows -->
-          <div style="position: absolute; top: 50%; left: -40px; right: -40px; display: flex; justify-content: space-between; align-items: center; transform: translateY(-50%); pointer-events: none;">
-            <span id="testimonialPrev" style="color: #ffd600; font-size: 2.2rem; cursor: pointer; pointer-events: auto; background: #fff; border-radius: 50%; box-shadow: 0 2px 8px rgba(23,57,167,0.08); padding: 0.3em 0.5em;"><i class="fa fa-arrow-left"></i></span>
-            <span id="testimonialNext" style="color: #ffd600; font-size: 2.2rem; cursor: pointer; pointer-events: auto; background: #fff; border-radius: 50%; box-shadow: 0 2px 8px rgba(23,57,167,0.08); padding: 0.3em 0.5em;"><i class="fa fa-arrow-right"></i></span>
-          </div>
-        </div>
+        <div style="color: #ffd600; font-size: 2rem; line-height: 1;">&#10077;</div>
+        <hr style="margin: 1.5rem 0;">
+        <p style="color: #1739a7; font-weight: bold; margin: 0;">Sesha Ghimire</p>
+        <p style="color: #666; margin: 0;">Co-Founder, Hami Sangai</p>
       </div>
+
+      <!-- Card 2 -->
+      <div style="flex: 1 1 45%; min-width: 300px; background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 16px rgba(0,0,0,0.05); text-align: left;">
+        <div style="color: #ffd600; font-size: 2rem; line-height: 1;">&#10077;</div>
+        <p style="margin-top: 1rem; color: #333; font-size: 1rem;">
+          I found it easy to access the repair service and it was quick and reasonable too. I hope to order more service
+          in near future.
+        </p>
+        <div style="color: #ffd600; font-size: 2rem; line-height: 1;">&#10077;</div>
+        <hr style="margin: 1.5rem 0;">
+        <p style="color: #1739a7; font-weight: bold; margin: 0;">Ram Adhikari</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
       <script>
         (function() {
           const slides = document.getElementById('testimonialSlides');
@@ -259,7 +254,7 @@
           startAutoSlide();
         })();
       </script>
-    </section>
+    </section> 
     
 
     <!-- Contact Section -->
